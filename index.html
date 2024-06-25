@@ -1,30 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="ico.jpg">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="topbar">yuvlian.github.io</div>
-    <button class="toggle-btn" onclick="toggleNavbar()">☰</button>
-    <div class="navbar" id="navbar">
-        <a href="#">Home</a>
-        <a href="railcard.html">Railcard</a>
-        <a href="robinwings.html">Robinwings</a>
-        <a href="rustembedbot.html">Rusty Embed Fixer Bot</a>
-        <a href="rustystuff.html">Little Rust Things</a>
-    </div>
-    
-    <div class="content" id="content">
-        <h1>Welcome</h1>
-        <noscript>Seems like you have JavaScript disabled, or your browser doesn't support it. Navbar needs it, sorry.</noscript>
-        <p>This is a website that simply lists the stuff I've made. Open navbar I guess.</p>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
-</html>
+    <html lang="en">
+        <head>
+            <title>Home</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.jpg">
+            <link rel="stylesheet" href="assets/sakura-radical.css">
+            <style>
+                .tab-buttons {
+                display: none;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Yulian's Page</h1>
+            
+            <p>Hi there. Welcome to my website. Here you can see the list of the projects that I've made with my free time as a pharmacist.</p>
+            <p>I made these simply because I thought they would be nice to have.</p>
+
+            <div class="tab-buttons">
+                <button onclick="showTab('licensed')">Licensed Projects</button>
+                <button onclick="showTab('publicDomain')">Public Domain Projects</button>
+            </div>
+
+            <h5 id="licensed-heading">The projects below are licensed with BSD 3-Clause.</h5>
+            <table id="licensed-table">
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/robinwings/robinwings.github.io">Robinwings</a></td>
+                    <td>Website to check basic HSR info</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/railcard">Railcard</a></td>
+                    <td>HSR showcase card maker</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/railgen">Railgen</a></td>
+                    <td>Railcard but Discord bot</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/qingquembed">Qingquembed</a></td>
+                    <td>Discord bot that fixes link embeds</td>
+                    <td>Rust</td>
+                </tr>
+            </table>
+
+            <h5 id="public-domain-heading">The projects below are in the public domain.</h5>
+            <table id="public-domain-table">
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/powercontrol">Powercontrol</a></td>
+                    <td>For changing max CPU usage on Windows</td>
+                    <td>Rust</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/launchy">Launchy</a></td>
+                    <td>Simple & configurable app launcher</td>
+                    <td>Rust</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/hsr_warp_probability">Warp Probability</a></td>
+                    <td>HSR gacha chance calculator</td>
+                    <td>Rust</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/yuvlian/vigenere-cipher-fortran">Vigenère Cipher</a></td>
+                    <td>Vigenère encrypt and decrypt</td>
+                    <td>Fortran</td>
+                </tr>
+            </table>
+
+            <script src="assets/yulian.js"></script>
+        </body>
+    </html>
