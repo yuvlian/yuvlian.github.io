@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Yulian&apos;s Diary</title>
+<id>urn:md2blog:Yulian&apos;s%20Diary</id>
+
+<author>
+<name>Yulian&apos;s Diary</name>
+</author>
+<updated>2024-08-03T11:49:03.813Z</updated>
+
+<entry>
+<title>1st post</title>
+<id>urn:md2blog:Yulian&apos;s%20Diary:1st%20post</id>
+<link rel="alternate" href="posts/daily/1st-post.html"/>
+<updated>2024-08-03T00:00:00.000Z</updated>
+<summary type="text">It&apos;s saturday fellas!</summary>
+<content type="html">&lt;h1 id=&quot;so-today&quot;&gt;So today...&lt;/h1&gt;
+&lt;p&gt;Nothing really interesting, it&amp;#39;s saturday, after all. But as happy as I am currently, I sometimes miss the busyness of workdays during saturday and sunday. And then the vice versa happens when it&amp;#39;s actually a workday, haha. Can&amp;#39;t be helped, humans are never satisfied with what they have.&lt;/p&gt;
+&lt;p&gt;Since there&amp;#39;s not much to say, I&amp;#39;ll share some things that I have done and saw today. Me and my friends played L4D2 in the morning then at noon I tried to revive , which didn&amp;#39;t go to well because a certain shark vtuber fan stripped the protobufs. Then there&amp;#39;s nothing interesting until... &lt;/p&gt;
+&lt;h2 id=&quot;drama-alert&quot;&gt;DRAMA ALERT!!&lt;/h2&gt;
+&lt;p&gt;Oh what&amp;#39;s this, a screenshot from Doonle? A certain someone is getting angry at him? Angry because of their own fault? Playing victim too?! No way I am getting left out!&lt;/p&gt;
+&lt;p&gt;Then I, naturally, showed it to another friend, who was also a victim of this someone... We all laughed together! How can someone like this exist?! To betray people&amp;#39;s trust so easily, to steal their works, and ultimately, getting angry at them too?! What the sigma?!&lt;/p&gt;
+&lt;p&gt;Well, enough drama. Another thing I did today is cleaning up my SSD! I went from having 90GB left to 230GB left, how cool is that? Though, I had to sacrifice many programming languages, my ISOs, softwares, and my project files... Oh and most importantly, deleted Genshin Impact. I forgot I still had that sad excuse of a video game installed.&lt;/p&gt;
+&lt;p&gt;I kept Rust and Deno, though. Not a surprise, since I use Rust alot. But Deno, I&amp;#39;ve never used it despite installing it some months ago. So I decided to try it out, and looked for something made with it and voila, here it is. &lt;a href=&quot;https://github.com/jaredkrinke/md2blog&quot;&gt;md2blog&lt;/a&gt;, made by Jared Krinke, was used to make this page. Very cool, huh? &lt;/p&gt;
+&lt;p&gt;That&amp;#39;s all for today, no guarantee I&amp;#39;ll be making another post but I quite enjoy this so I probably will.&lt;/p&gt;
+</content>
+</entry>
+</feed>
